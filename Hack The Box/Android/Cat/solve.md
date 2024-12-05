@@ -12,7 +12,9 @@ The challange includes a cat.ab file.
 
 In order to obtain info on type of file I used file command.
 
+```bash
 file cat.ab
+```
 
 > cat.ab: Android Backup, version 5, Compressed, Not-Encrypted
 
