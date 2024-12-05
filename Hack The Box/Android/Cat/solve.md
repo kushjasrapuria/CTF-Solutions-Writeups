@@ -60,4 +60,4 @@ The files which caught my eye were :-
 
 In IMAG0004.jpg image the guy in the picture is holding some paper titled "TOP SECRET".
 
-If you zoom in the picture in the end of the paper the flag was there.
+If you zoom in the picture in the end of the paper flag is there.
