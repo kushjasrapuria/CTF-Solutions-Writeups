@@ -4,6 +4,8 @@ Name : Cat
 
 Difficulty : Easy
 
+Category : Mobile
+
 Link : https://app.hackthebox.com/challenges/Cat
 
 # Writeup
