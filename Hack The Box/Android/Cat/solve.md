@@ -29,7 +29,7 @@ But this dosen't help much as it's hard to investigate changes made on android e
 Tool link : https://github.com/nelenkov/android-backup-extractor
 
 ```bash
-./abe.jar unpack cat.ab cat.tar
+java -jar abe.jar unpack cat.ab cat.tar
 ```
 
 ```bash
