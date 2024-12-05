@@ -20,27 +20,37 @@ file cat.ab
 
 After searching around I found out how to restore these backup files.
 
+```bash
 adb restore cat.ab
+```
 
 But this dosen't help much as it's hard to investigate changes made on android emulator after restoring backup so I searched further and found a github repo with a tool to convert android backup file to tar archive.
 
 Tool link : https://github.com/nelenkov/android-backup-extractor
 
+```bash
 ./abe.jar unpack cat.ab cat.tar
+```
 
+```bash
 tar -xvf cat.tar
+```
 
 This gets all the files stored in the backup.
 
 As usually the flags are stored in flag.txt file i tried using find for any file named flag.
 
+```bash
 find ./ flag
+```
 
 > find: ‘flag’: No such file or directory
 
 This didn't work so to find any interesting files i used ls with recursive argument.
 
+```bash
 ls -R
+```
 
 The files which caught my eye were :-
 
