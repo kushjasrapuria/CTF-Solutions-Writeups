@@ -109,6 +109,7 @@ find ./ | grep MainAct
 ```
 
 > ./APKey/smali/com/example/apkey/MainActivity$a.smali
+>
 > ./APKey/smali/com/example/apkey/MainActivity.smali
 
 I use sublime text as my goto editior.
