@@ -57,7 +57,7 @@ ls -R
 The files which caught my eye were :-
 
 > ./shared/0/Pictures:
-
+>
 > IMAG0001.jpg  IMAG0002.jpg  IMAG0003.jpg  IMAG0004.jpg  IMAG0005.jpg  IMAG0006.jpg
 
 In IMAG0004.jpg image the guy in the picture is holding some paper titled "TOP SECRET".
