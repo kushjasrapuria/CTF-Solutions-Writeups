@@ -114,7 +114,7 @@ find ./ | grep MainAct
 
 I use sublime text as my goto editior.
 
-subl ./APKey/smali/com/example/apkey/MainActivity$a.smali
+subl ./APKey/smali/com/example/apkey/MainActivity.smali
 
 Line 141 
 
