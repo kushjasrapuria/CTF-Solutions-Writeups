@@ -57,7 +57,7 @@ Content-Type: image/png
 
 PNG
 
-<First line of png header>
+<png file data>
 ```
 
 Changing `filename="test.png` to `filename="test.png.php`.
