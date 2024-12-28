@@ -177,3 +177,5 @@ Connection: keep-alive
 ```
 
 `Note : Normal payload won't work as the server shows not a function error if any of json parameters starts with "{" and ends with "}".`
+
+In response of this request there is a token which is base64 encoded which can be decoded for the flag.
