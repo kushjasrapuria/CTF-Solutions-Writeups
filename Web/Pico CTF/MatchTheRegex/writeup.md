@@ -31,4 +31,4 @@ function send_request() {
 
 This provides with the regex it's being tested against.
 
-`p.....F` anything starts with p and ends with F with 5 letters and symbols in between should work to pass the check for this regex. 
+`p.....F` anything starts with p and ends with F with 5 any sort of charater except new line in between should work to pass the check for this regex. 
