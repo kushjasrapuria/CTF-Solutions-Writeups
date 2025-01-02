@@ -52,7 +52,7 @@ Entering the signature and it's verified let's copy payload and change some para
 }
 ```
 
-Now sign the JWT with the key and edit it in Session storage of webapp.
+Now sign the JWT with the key and edit it in Local storage of webapp.
 
 For safety I also edit the token below JWT.
 
