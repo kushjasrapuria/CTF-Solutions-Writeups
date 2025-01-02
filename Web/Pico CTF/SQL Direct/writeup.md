@@ -22,7 +22,7 @@ psql -h saturn.picoctf.net -p 54709 -U postgres pico
 \l
 ```
 
-`
+```
    Name    |  Owner   | Encoding | Locale Provider |  Collate   |   Ctype    | Locale | ICU Rules |   Access privileges   
 -----------+----------+----------+-----------------+------------+------------+--------+-----------+-----------------------
  pico      | postgres | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           |
@@ -31,7 +31,7 @@ psql -h saturn.picoctf.net -p 54709 -U postgres pico
            |          |          |                 |            |            |        |           | postgres=CTc/postgres
  template1 | postgres | UTF8     | libc            | en_US.utf8 | en_US.utf8 |        |           | =c/postgres          + 
            |          |          |                 |            |            |        |           | postgres=CTc/postgres
-`
+```
 
 /dt to list relations
 
@@ -39,11 +39,11 @@ psql -h saturn.picoctf.net -p 54709 -U postgres pico
 \dt
 ```
 
-`
+```
  Schema | Name  | Type  |  Owner
 --------+-------+-------+----------
  public | flags | table | postgres
-`
+```
 
 ```
 select * from flags;
