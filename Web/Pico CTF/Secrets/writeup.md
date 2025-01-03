@@ -32,10 +32,6 @@ Going back to hidden and inspecting again.
 
 A login form in order to see how it works I inspected source but found something else.
 
-```html
-<link href="superhidden/login.css" rel="stylesheet">
-```
-
-Going back to supperhidden and inspecting we get the flag.
+I tried going back to supperhidden and inspecting and I got the flag.
 
 http://saturn.picoctf.net:54196/secret/hidden/superhidden/
