@@ -17,7 +17,7 @@ def conn():
     elif args.LOCAL:
         return process([elf.path])
     else:
-        return remote("addr", 2222)
+        return remote("addr", 1337)
 
 io = conn()
 
