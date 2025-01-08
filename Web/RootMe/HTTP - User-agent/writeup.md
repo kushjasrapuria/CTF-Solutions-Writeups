@@ -36,7 +36,7 @@ sec-gpc: 1
 Connection: keep-alive
 ```
 
-Chainging user-agent to `admin`.
+Changing user-agent to `admin`.
 
 ```
 GET /web-serveur/ch2/ HTTP/1.1
