@@ -17,11 +17,10 @@ def catfile():
         output = popen.stdout.read()
         print(output)
 
-thread1 = threading.Thread(target=challange)
-thread2 = threading.Thread(target=catfile)
+challthread = threading.Thread(target=challange)
+catthread = threading.Thread(target=catfile)
 
+challthread.start()
+catthread.start()
 
-thread1.start()
-thread2.start()
-
-thread2.join()
+catthread.join()
