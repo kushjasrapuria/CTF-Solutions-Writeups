@@ -8,7 +8,6 @@ def challange():
         args = ("./chall")
         popen = subprocess.Popen(args, stdout=subprocess.PIPE)
         popen.wait()
-        output = popen.stdout.read()
 
 def catfile():
     for i in range(1, 6):
@@ -25,5 +24,4 @@ thread2 = threading.Thread(target=catfile)
 thread1.start()
 thread2.start()
 
-thread1.join()
 thread2.join()
