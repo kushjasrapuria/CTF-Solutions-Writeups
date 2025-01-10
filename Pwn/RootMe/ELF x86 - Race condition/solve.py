@@ -2,7 +2,6 @@
 
 import threading
 import subprocess
-import time
 
 def challange():
     for i in range(1, 6):
