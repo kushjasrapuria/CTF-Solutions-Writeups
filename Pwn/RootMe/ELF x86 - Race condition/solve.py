@@ -23,4 +23,5 @@ catthread = threading.Thread(target=catfile)
 challthread.start()
 catthread.start()
 
+challthread.join()
 catthread.join()
