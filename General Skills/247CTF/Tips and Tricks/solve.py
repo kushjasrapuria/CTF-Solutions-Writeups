@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Exploit by x90slide
+
 from pwn import *
 
 gs = '''
