@@ -1,7 +1,7 @@
 import socket, sys
 from struct import pack
 
-ip = "192.168.1.22"
+ip = "<IP>"
 port = 9999
 
 prefix = b'TRUN '
